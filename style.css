@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url(bitcoin-robot-digital-art-4k-wallpaper-uhdpaper.com-191@3@a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.cform-container {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(189, 189, 189, 0.493);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 2px 20px 12px rgba(0, 0, 0, 0.541), -1px -1px 8px rgba(0, 0, 0, 0.493);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+
+.img {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 20px;
+    
+}
+
+.circle-path {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    z-index: 1;
+    
+}
+
+.img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 2px 20px 12px rgba(0, 0, 0, 0.541), -1px -1px 8px rgba(0, 0, 0, 0.493);
+    z-index: 2;
+}
+
+.username, .password {
+    margin-bottom: 20px;
+}
+
+.username label, .password label{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.username input, .password input {
+    width: 100%;
+    background-color: #bdbdbd93;
+    padding: 12px;
+    border: 1px solid #ddddddc4;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #0e0e0e;
+}
+
+.username input::placeholder, .password input::placeholder {
+    color: #474747;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.remember input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.login-button input {
+    width: 100%;
+    padding: 12px;
+    background-color: #001aff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.541), -1px -1px 8px rgba(0, 0, 0, 0.493);
+    transition: all ease-in .2s;
+}
+
+.login-button input:hover {
+    background-color: #ffffff;
+    color: #001aff;
+    transform: scale(1.04);
+}
